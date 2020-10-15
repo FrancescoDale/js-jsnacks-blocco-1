@@ -8,3 +8,6 @@ for (i = 6; i > 0; i--) {
         arrOdds.push(inputNumber);
     }
 }
+
+
+document.getElementById('odds').innerHTML = arrOdds;
